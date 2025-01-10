@@ -2,25 +2,46 @@ import React, { useState } from "react";
 
 const questions = [
   {
-    question: "What's the capital of France?",
-    options: ["Berlin", "Madrid", "Paris", "Rome"],
-    answer: "Paris",
+    question: "Which of the following is not a pillar of OOP?",
+    options: ["Encapsulation", "Polymorphism", "Inheritance", "Compilation"],
+    answer: "Compilation",
   },
   {
-    question: "Who wrote 'Hamlet'?",
-    options: ["Shakespeare", "Homer", "Tolstoy", "Dickens"],
-    answer: "Shakespeare",
+    question: "What is the primary purpose of encapsulation in OOP?",
+    options: [
+      "To achieve code reusability",
+      "To restrict direct access to data members",
+      "To allow multiple methods with the same name",
+      "To create parent-child relationships",
+    ],
+    answer: "To restrict direct access to data members",
   },
-  { question: "What is 2 + 2?", options: ["3", "4", "5", "6"], answer: "4" },
+
   {
-    question: "What color is the sky?",
-    options: ["Green", "Blue", "Red", "Yellow"],
-    answer: "Blue",
+    question: "What is the default port number for MySQL?",
+    options: ["8080", "1521", "3306", "5432"],
+    answer: "3306",
+  },
+
+  {
+    question: "What is the role of the `commit()` method in JDBC?",
+    options: [
+      "It executes a query",
+      "It rolls back a transaction",
+      "It ends a transaction by saving changes",
+      "It creates a new database connection",
+    ],
+    answer: "It ends a transaction by saving changes",
   },
   {
-    question: "What is the largest planet?",
-    options: ["Earth", "Jupiter", "Mars", "Saturn"],
-    answer: "Jupiter",
+    question: "Which statement is true about the PRIMARY KEY in MySQL?",
+    options: [
+      "It allows duplicate values",
+      "It can contain NULL values",
+      "It uniquely identifies each record in a table",
+      "It can only be applied to numeric columns",
+    ],
+    answer: "It uniquely identifies each record in a table",
   },
 ];
 
